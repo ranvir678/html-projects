@@ -1,0 +1,78 @@
+#head{
+  text-align: center;
+  background: linear-gradient(to left,grey,silver);
+  border-radius: 10px 15px;
+  font-style: italic;
+  font-family: cursive;
+  box-shadow: 30px 30px 30px #ffffff ;
+
+  text-shadow: 3px,4px;
+
+}
+.box{
+  width:215px;
+  height: 350px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background-color:#ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+  -13px -13px 20px #ffffff  ;
+    display :flex;
+    margin: auto;
+
+
+}
+
+.fields{
+  width: 100%;
+  padding: 10px 10px;
+  color: #555;
+  font-size: 25px;
+  background: none;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: inset -8px 8px 8px  #cbced1;
+
+
+}
+#button{
+width: 100%;
+border-radius: 30px;
+height: 40px;
+background: linear-gradient(to left,#24cfaa,pink);
+}
+#button:hover{
+  cursor: pointer;
+  color: #fff;
+  box-shadow:  8px 8px 8px grey;
+}
+@media(max-width:600px)
+{
+  .fields { width: 300px;}
+
+}
+@media(max-width:600px)
+{
+  #button { width: 300px;}
+
+}
+@media(max-width:600px)
+{
+  .box { width: 300px;}
+
+}
+@media(max-width:400px)
+{
+  .fields { width: 200px;}
+
+}
+@media(max-width:400px)
+{
+  #button { width: 200px;}
+
+}
+@media(max-width:400px)
+{
+  .box { width: 200px;}
+
+}
