@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0
+}
+.head {
+  height: 150px;
+  border-radius:  30px;
+}
+#head{
+  text-align:center;
+  font-style: italic;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-top: 55px;
+
+
+
+}
+.container p{
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+overflow: hidden;
+}
+.image img{
+  width: 100vw;
+}
+@media (max-width:200px) {#head{padding-top: 10px;font-size: 25px}
+
+
+}
