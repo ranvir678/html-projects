@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding: 0
+}
+
+#head{
+  font-family: 'Texturina', serif;
+  text-align:center;
+  font-size: 45px;
+  font-weight: bold;
+}
+.image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  background-attachment: fixed;
+
+}
+#image{
+background-attachment: fixed;
+overflow-x: hidden;
+  border-radius: 15px;
+
+}
+.box{
+  height:450px;
+  width: 350px;
+box-shadow: 5px 5px 5px grey;
+  margin: 30px;
+  border-radius: 20px
+
+
+}
+.container{
+  margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+text-align: center;
+}
+p{
+  font-size: 30px;
+  text-align: center;
+}
+#button{
+  height: 35px;
+  width:100px;
+  border-radius: 10px;
+  font-family:'Texturina', serif;
+  font-size: 15px;
+}
+#buttondiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+#button:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px grey
+}
+.container:hover .box{
+  filter: blur(20px);
+}
+.container  .box:hover{
+filter:blur(0px);
+  transform: scale(1.1);
+}
+@media (max-width:500px) {
+  #image{
+    width: 100vw;
+  }
+
+}
+.image{
+  background: url(flag.jpg);
+  background-position: center;
+background-size:cover;
+background-attachment: fixed;
+}
